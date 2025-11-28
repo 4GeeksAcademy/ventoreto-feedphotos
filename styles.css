@@ -1,0 +1,267 @@
+
+        body {
+            background-color: #fafafa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            padding-top: 70px;
+        }
+        
+        .navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+            height: 60px;
+        }
+        
+        .instagram-logo {
+            font-family: 'Instagram', sans-serif;
+            font-size: 1.5rem;
+            background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        
+        .btn-success {
+            background-color: #0095f6;
+            border-color: #0095f6;
+            font-weight: 600;
+        }
+        
+        .btn-success:hover {
+            background-color: #0081d6;
+            border-color: #0081d6;
+        }
+        
+        .dropdown-toggle {
+            background: none;
+            border: none;
+            color: #262626;
+            font-size: 1.2rem;
+            padding: 8px 12px;
+            border-radius: 50%;
+            transition: background-color 0.2s ease;
+        }
+        
+        .dropdown-toggle:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .dropdown-menu {
+            border: 1px solid #dbdbdb;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 8px 0;
+            min-width: 200px;
+        }
+        
+        .dropdown-item {
+            padding: 8px 16px;
+            font-size: 14px;
+            color: #262626;
+            display: flex;
+            align-items: center;
+        }
+        
+        .dropdown-item i {
+            margin-right: 12px;
+            width: 16px;
+            text-align: center;
+        }
+        
+        .dropdown-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .dropdown-divider {
+            margin: 4px 0;
+        }
+        
+        .nav-tabs {
+            border: none;
+            margin: 30px 0;
+        }
+        
+        .nav-tabs .nav-link {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: #8e8e8e;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: #0095f6;
+            background-color: transparent;
+            border: none;
+        }
+        
+        .nav-tabs .nav-link:hover {
+            background-color: #f8f9fa;
+            color: #0095f6;
+            border: none;
+        }
+        
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            margin-bottom: 4px;
+        }
+        
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .grid-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        .grid-item-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            color: white;
+            font-size: 18px;
+        }
+        
+        .grid-item:hover .grid-item-overlay {
+            opacity: 1;
+        }
+        
+        .grid-item-stats {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .grid-item-stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .aspect-ratio-1-1 {
+            aspect-ratio: 1/1;
+        }
+        
+        .aspect-ratio-1-1-25 {
+            aspect-ratio: 1/1.25;
+        }
+
+        .modal-header {
+            border-bottom: 1px solid #dbdbdb;
+        }
+        
+        .modal-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .form-label {
+            font-weight: 600;
+            color: #262626;
+            margin-bottom: 8px;
+        }
+        
+        .form-control {
+            border: 1px solid #dbdbdb;
+            border-radius: 6px;
+            padding: 12px;
+        }
+        
+        .form-control:focus {
+            border-color: #0095f6;
+            box-shadow: 0 0 0 2px rgba(0, 149, 246, 0.2);
+        }
+        
+        .icon-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .icon-btn {
+            background: none;
+            border: 1px solid #dbdbdb;
+            border-radius: 6px;
+            padding: 10px 15px;
+            color: #262626;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .icon-btn:hover {
+            background-color: #f8f9fa;
+            border-color: #0095f6;
+        }
+        
+        .icon-btn i {
+            margin-right: 8px;
+        }
+        
+        .modal-footer {
+            border-top: 1px solid #dbdbdb;
+            padding: 16px 24px;
+        }
+        
+        .post-card {
+            max-width: 614px;
+            margin: 0 auto 20px;
+            border: 1px solid #dbdbdb;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        
+        .post-header {
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #dbdbdb;
+        }
+        
+        .post-username {
+            font-weight: 600;
+            color: #262626;
+        }
+        
+        .post-date {
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        
+        .post-body {
+            padding: 16px;
+        }
+        
+        .post-stats {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .post-stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 600;
+        }
+        
+        .post-caption {
+            color: #262626;
+            line-height: 1.5;
+        }
+    
